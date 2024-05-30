@@ -1,0 +1,199 @@
+/*
+
+
+
+
+.progress_bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.control{
+  width:300px;
+}
+
+*/
+.Setmid{
+    margin:auto;
+  }
+  .progress_wrap {
+    width: 540px;
+    margin: auto;
+  }
+  .mbti_wrap {
+    width: 787px;
+    height: 750px;
+    background-color:bisque;
+    flex-direction: column;
+    margin:auto;
+    border-radius:63px;
+  }
+  .explain_page p {
+    font-weight: bold;
+}
+  .mbti_set {
+    margin:auto;
+    width: 540px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 0px;
+  
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mbti_text{
+    margin: 10px;
+    padding:10px;
+    background-color:#FA865F;
+    border-radius: 40px;
+  }
+  .mbti_text h2{
+    color:white;
+  }
+  .container {
+    background:antiquewhite;
+    padding:0px;
+    width:540px;
+   
+  }
+  input[type="range"]{
+    -webkit-appearance: none;
+    width: 80%; /*막대 바에 대한 width*/
+    height: 8px;
+    outline: none !important;
+    appearance:none;
+    border:none;
+    border-radius:30px;
+  }
+  input[type="range"]::-moz-focus-outer {
+      border: 0;
+  }
+  input[type="range"]:hover {
+    outline:none;
+  }
+  
+  /* Chrome */
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 9px;
+    height: 9px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius:30px;
+    outline:none;
+  }
+  
+  /* Moz */
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #f1f9f4;
+    cursor: pointer;
+    border-radius:50%;
+    border:none;
+    outline:none;
+  }
+  input[type="range"]::-moz-range-progress {
+    background-color: #fff;
+      height: 100%;
+    border-radius:30px;
+    border:none;
+  }
+  input[type="range"]::-moz-range-track {  
+    background-color: #ccc;
+    border-radius:30px;
+    border:none;
+      height: 100%;
+  }
+  
+  /* IE*/
+  
+  input[type="range"]::-ms-fill-lower {
+    background-color: #fff;
+      height: 100%;
+    border-radius:30px;
+    border:none;
+  }
+  input[type="range"]::-ms-fill-upper {  
+    background-color: #ccc;
+    border-radius:30px;
+    border:none;
+      height: 100%;
+  }
+  
+  /* tooltip style */
+  .tooltip {
+    position:relative;
+    padding:30px 0;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #f38080;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top:-5px;
+    left:calc(50% - 50px);
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f38080 transparent transparent transparent;
+  }
+  
+  .button {
+    border: none; /* 외곽선 제거 */
+    background-color: transparent; /* 배경색 투명으로 설정 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경하여 클릭 가능한 상태를 나타냅니다. */
+    width: 90px; /* 버튼의 너비 조정 */
+    height: 90px; /* 버튼의 높이 조정 */
+    display: flex; /* 내부 요소를 가로로 정렬하기 위해 flex 속성을 사용합니다. */
+    justify-content: center; /* 내부 요소를 가운데 정렬합니다. */
+    align-items: center; /* 내부 요소를 세로로 가운데 정렬합니다. */
+    border-radius: 50%; /* 동그라미 모양의 버튼을 만듭니다. */
+  }
+  .mbti_btn{
+    border-radius: 50px;;
+    width:30px;
+    height: 30px;
+    border-width: 0;
+  }
+  .submit_btn{
+    padding: 9px;
+    margin:10px;
+    background-color:#F5F5F5;
+    border-width: 0;
+    border-radius:30px;
+  }
+  .survey_btn{
+    padding:9px;
+    margin: 10px;
+    border-width: 0;
+    background-color:#FA865F;
+    border-radius: 30px;
+  }

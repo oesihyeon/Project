@@ -1,0 +1,212 @@
+[
+    {
+      "category": "chest",
+      "exercises": [
+        {
+          "name": "인클라인 벤치 프레스",
+          "type": "Strength",
+          "equipment": "Bench, Barbell",
+          "description": "Upper chest exercise using an inclined bench."
+        },
+        {
+          "name": "플랫 벤치 프레스",
+          "type": "Strength",
+          "equipment": "Bench, Barbell",
+          "description": "Flat bench press for overall chest development."
+        },
+        {
+          "name": "체스트 프레스",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Machine-based chest exercise."
+        },
+        {
+          "name": "벤치 프레스",
+          "type": "Strength",
+          "equipment": "Bench, Barbell",
+          "description": "Classic chest exercise using a flat bench."
+        },
+        {
+          "name": "체스트 플라이",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Isolation exercise for the chest."
+        }
+      ]
+    },
+    {
+      "category": "shoulders",
+      "exercises": [
+        {
+          "name": "숄더 프레스",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Overhead press for shoulder development."
+        },
+        {
+          "name": "래터럴 레이즈",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Isolation exercise for the side delts."
+        },
+        {
+          "name": "덤벨 숄더 프레스",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Overhead press with dumbbells."
+        }
+      ]
+    },
+    {
+      "category": "waist",
+      "exercises": [
+        {
+          "name": "데드리프트",
+          "type": "Strength",
+          "equipment": "Barbell",
+          "description": "Full-body compound lift."
+        },
+        {
+          "name": "랫풀다운",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lat pulldown for back and waist."
+        },
+        {
+          "name": "머신로우",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Machine-based rowing exercise."
+        },
+        {
+          "name": "백 익스텐션",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lower back extension exercise."
+        }
+      ]
+    },
+    {
+      "category": "back",
+      "exercises": [
+        {
+          "name": "랫풀다운 오버 그립",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lat pulldown with an overhand grip."
+        },
+        {
+          "name": "랫풀다운 뉴트럴 그립",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lat pulldown with a neutral grip."
+        },
+        {
+          "name": "랫풀다운 언더 그립",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lat pulldown with an underhand grip."
+        },
+        {
+          "name": "랫풀다운 원 암",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Single-arm lat pulldown."
+        }
+      ]
+    },
+    {
+      "category": "abs",
+      "exercises": [
+        {
+          "name": "행잉 레그 레이즈",
+          "type": "Strength",
+          "equipment": "None",
+          "description": "Hanging leg raise for abs."
+        },
+        {
+          "name": "시티드 니업",
+          "type": "Strength",
+          "equipment": "Bench",
+          "description": "Seated knee-up for abs."
+        },
+        {
+          "name": "벤치 크런치",
+          "type": "Strength",
+          "equipment": "Bench",
+          "description": "Crunches performed on a bench."
+        },
+        {
+          "name": "레그 레이즈",
+          "type": "Strength",
+          "equipment": "None",
+          "description": "Leg raise for lower abs."
+        },
+        {
+          "name": "플랭크",
+          "type": "Strength",
+          "equipment": "None",
+          "description": "Isometric core exercise."
+        }
+      ]
+    },
+    {
+      "category": "glutes",
+      "exercises": [
+        {
+          "name": "힙 쓰러스트",
+          "type": "Strength",
+          "equipment": "Bench, Barbell",
+          "description": "Hip thrust for glutes."
+        },
+        {
+          "name": "스플릿 스쿼드",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Split squat for legs and glutes."
+        },
+        {
+          "name": "원 레그 데드리프트",
+          "type": "Strength",
+          "equipment": "Dumbbells",
+          "description": "Single-leg deadlift for balance and glutes."
+        },
+        {
+          "name": "백 익스텐션",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Lower back extension exercise."
+        }
+      ]
+    },
+    {
+      "category": "legs",
+      "exercises": [
+        {
+          "name": "중량 스쿼트",
+          "type": "Strength",
+          "equipment": "Barbell",
+          "description": "Weighted squat for legs."
+        },
+        {
+          "name": "레그 프레스",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Leg press machine exercise."
+        },
+        {
+          "name": "레그 익스텐션",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Leg extension machine exercise."
+        },
+        {
+          "name": "레그 컬",
+          "type": "Strength",
+          "equipment": "Machine",
+          "description": "Leg curl machine exercise."
+        }
+      ]
+    }
+  ]
+  

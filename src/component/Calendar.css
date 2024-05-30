@@ -1,0 +1,144 @@
+
+.main {
+  display: flex;
+}
+
+.search-section {
+  width: 20vw;
+  height: 100%;
+  background-color:#FFF8F2;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+.search-input{
+  width:18vw;
+  padding:10px;
+  border-width: 0;
+  background-color:#fff;
+  height:2vw;
+  border-radius: 63px;
+
+}
+.calendar{
+  width: 80vw;
+  height:80vh;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  background-color: #f0f0f0;
+}
+
+.back-icon {
+  cursor: pointer;
+}
+
+.daysArray {
+  display: flex;
+}
+
+.day {
+  width: calc(100% / 7);
+  text-align: center;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date {
+  width: calc(100% / 7);
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  height:150px;
+  position: relative;
+  cursor: pointer;
+}
+.date.selected {
+  background-color: lightblue;
+  color: white; 
+}
+
+
+.date:hover {
+  background-color: #FFF8F2;
+}
+
+.event {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background-color: rgb(254, 185, 116);
+  padding: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #FDD0C1;
+  padding: 20px;
+  border-radius: 62px;
+  text-align: center;
+}
+
+.modal_btn{
+  background-color: #FF733B;
+  border-radius: 3px;
+  border-width: 0px;
+  padding: 10px;
+  margin-right: 3px;
+}
+.exit_btn{
+  border-radius:100%;
+  border-width: 0px;
+  background-color:#FF733B;
+  
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+.modal_result{
+  background-color: #fff;
+  padding:10px;
+  border-radius:62px 0 0 62px;
+}
+
+.search-results {
+  margin-top: 10px;
+}
+
+.search-result {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.search-result:hover {
+  background-color: #f0f0f0;
+}
